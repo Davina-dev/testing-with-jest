@@ -1,0 +1,12 @@
+{
+  "name": "pairprogramming",
+  "version": "0.0.1",
+  "main": "./src/main.js",
+  "type": "module",
+  "scripts": {
+    "test": " jest --verbose --collectCoverage "
+  },
+  "devDependencies": {
+    "jest": "28.1.0"
+  }
+}
