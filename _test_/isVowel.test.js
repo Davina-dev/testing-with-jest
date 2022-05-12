@@ -1,7 +1,7 @@
 const { isVowel, countVowels } = require('../src/isVowel.js')
 
 describe('isVowel', () => {
-  it.only('debería arrojar cuando se invoca sin string', () => {
+  it('debería arrojar cuando se invoca sin string', () => {
     expect(() => isVowel()).toThrow(Error)
   })
 
@@ -27,4 +27,5 @@ describe('countVowels', () => {
     expect(countVowels('abc')).not.toBe({ a: 1, e: 0, i: 0, o: 0, u: 0 })
     expect(countVowels('abc')).toStrictEqual({ a: 1, e: 0, i: 0, o: 0, u: 0 }) //por valor (no es el mismo obj, pero es uno igual)
   })
+  
 })

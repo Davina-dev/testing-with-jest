@@ -4,7 +4,7 @@
   "main": "./src/main.js",
   "type": "module",
   "scripts": {
-    "test": " jest --verbose --collectCoverage "
+    "test": " jest --verbose --collectCoverage --watchAll "
   },
   "devDependencies": {
     "jest": "28.1.0"
